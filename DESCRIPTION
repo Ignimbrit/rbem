@@ -1,0 +1,31 @@
+Package: rbem
+Title: Access High Resolution DEM data of Berlin in R
+Version: 0.0.0.9000
+Date: 2020-08-03
+Authors@R: c(
+    person(given = "Soeren",
+           family = "Wilke",
+           role = c("aut", "cre"),
+           email = "swilke@gmx.de"),
+           person(
+           given = "Christoph",
+           family = "Manthey",
+           role = c("aut"),
+           email = "Christoph.manthey@posteo.de"
+           ))
+Description: Download and process high resolution digital elevation models of Berlin, Germany in R.
+Depends: R (>= 2.10)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: 
+    magrittr,
+    readr,
+    purrr,
+    dplyr,
+    sf,
+    raster,
+    tibble,
+    methods,
+    utils
